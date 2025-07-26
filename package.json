@@ -1,0 +1,38 @@
+{
+  "name": "travel-map-component",
+  "version": "1.0.0",
+  "description": "Interactive travel map component with Google Maps integration",
+  "main": "TravelMap.tsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "travel",
+    "map",
+    "react",
+    "google-maps",
+    "interactive",
+    "component"
+  ],
+  "author": "Open Source",
+  "license": "MIT",
+  "dependencies": {
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.3",
+    "@types/react": "18.2.42",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "5.3.3"
+  }
+}
