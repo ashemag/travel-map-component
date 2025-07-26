@@ -1,20 +1,15 @@
 # Travel Map Component
 
-An interactive travel map component built with React, Next.js, and Google Maps that allows users to visualize and explore travel locations with photos and details.
+Interactive travel map component built with React, Next.js, and Google Maps. Displays travel locations with automatic photo fetching and detailed information.
 
 ## Features
 
-- 🗺️ Interactive Google Maps integration
-- 📍 Clickable location markers
-- 🖼️ Automatic photo fetching from Google Places API
-- 🎨 Light and dark theme support
-- 📱 Responsive design
-- ⚡ Optimized photo loading strategy
-- 🎯 Smart marker clustering
-
-## Demo
-
-![Travel Map Component](https://via.placeholder.com/800x400?text=Travel+Map+Component+Demo)
+- Interactive Google Maps integration
+- Clickable location markers
+- Automatic photo fetching from Google Places API
+- Light and dark theme support
+- Responsive design
+- Optimized photo loading strategy
 
 ## Installation
 
@@ -154,45 +149,24 @@ This component requires a Google Maps API key with the following APIs enabled:
 - **Places API**: For fetching location photos
 - **Geocoding API**: For location services
 
-## Performance Optimization
+## Performance
 
-The component includes several performance optimizations:
+- Smart photo loading for visible locations first
+- Staggered API requests to prevent rate limiting
+- Lazy loading and caching
 
-- **Smart photo loading**: Loads photos for visible locations first
-- **Staggered requests**: Prevents API rate limiting
-- **Lazy loading**: Photos load as needed
-- **Caching**: Reduces redundant API calls
+## License
 
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+MIT License
 
 ## Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](../../issues) page
-2. Create a new issue with detailed information
-3. Include your browser, Node.js version, and any error messages
 
 ## Acknowledgments
 
-- Google Maps JavaScript API
-- Next.js team for the excellent framework
-- Tailwind CSS for styling utilities
-- The open source community for inspiration
+Inspired by [mldangelo's portfolio projects](https://github.com/mldangelo?tab=repositories).
